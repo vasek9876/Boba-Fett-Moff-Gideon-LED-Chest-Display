@@ -1,6 +1,8 @@
 #ifndef defaults_h
 #define defaults_h
 
+#include <avr/io.h>
+
 #ifdef OLD
 
 // 88888
@@ -91,6 +93,7 @@
 #define PATTERN_7 0b01101110  // 7
 #define PATTERN_8 0b00001000  // 8
 #define PATTERN_9 0b00001110  // 9
+#define PATTERN_E 0b00011001  // E
 
 #define PATTERN_0_DP 0b00100000  // 0 // OK
 #define PATTERN_1_DP 0b10110011  // 1 // OK
@@ -201,5 +204,31 @@ const byte pattern3[] = {PATTERN_31, PATTERN_32, PATTERN_33, PATTERN_34, PATTERN
 const byte pattern4[] = {PATTERN_41, PATTERN_42, PATTERN_43, PATTERN_44, PATTERN_45};
 const byte pattern5[] = {PATTERN_51, PATTERN_52, PATTERN_53, PATTERN_54, PATTERN_55};
 
+
+
+// LED pin
+#define LED_PIN PB5
+
+// LCD segments on PORTC bits 5..1
+// const int lcd_addr[] = { A5, A4, A3, A2, A1 };  // Segments: PC5,PC4,PC3,PC2,PC1
+#define LCD_PORT PORTC
+#define LCD_DDR DDRC
+#define LCD_MASK ((1 << PC5) | (1 << PC4) | (1 << PC3) | (1 << PC2) | (1 << PC1))
+
+#define NUM_SEG 5  // Number of LCD segments
+
+// Bar LEDs on PORTB bits 0,2,3,1 (in that order)
+// const int bar_leds[] = { 8, 10, 11, 9 };  // PB0, PB2, PB3, PB1
+#define BAR_PORT PORTB
+#define BAR_DDR DDRB
+#define BAR_MASK ((1 << PB0) | (1 << PB2) | (1 << PB3) | (1 << PB1))
+
+// map bits to actual PORTB bits
+static const uint8_t barBits[4] = { (1 << PB0), (1 << PB2), (1 << PB3), (1 << PB1) };
+
+// const int bar_leds_en = 12;  // PB4
+#define BAR_EN_PORT PORTB
+#define BAR_EN_DDR DDRB
+#define BAR_EN_BIT PB4
 
 #endif
