@@ -14,8 +14,8 @@ Boba Fett / Moff Gideon LED Chest Display for cosplay or props.
 - Power the display with a suitable battery (5–10 V recommended, 5-18 V suitable)
 - LEDs gradually light up on startup
 - If battery voltage is too low, the circuit enters deep sleep and indicates the error with the green LED
-- It is possible to connect the powerbank directly to the pins used for the 9 V battery, but the consumption of the circuit is approximately 100 mA, so it is important to keep the powerbank on. (the data D+ and D- are connected by using the 20 k resisotr)
-- By the calculation the 9 V battery should keep the device on for 3 - 5 hours, but it depends on the battery capacity and internal resistance.
+- It is possible to connect the powerbank directly to the pins used for the 9 V battery, but the consumption of the circuit is approximately 100 mA, so the circuit is not ready to run on a powerbank continuously (the powerbank turns off after a time because of the internal protection circuit)
+- By the calculation, the 9 V battery should keep the device on for 3 - 5 hours, but it depends on the battery capacity and internal resistance.
 
 ## Programming
 - Microcontroller: **ATmega328PB**
