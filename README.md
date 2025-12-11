@@ -2,7 +2,10 @@
 
 Boba Fett / Moff Gideon LED Chest Display for cosplay or props.
 
-## Features
+<img src="https://github.com/user-attachments/assets/c945999b-e648-4907-9bd3-3341c044ca7c" height="300">
+<img src="https://github.com/user-attachments/assets/a032508d-aa3b-4a43-a923-ef94f3811024" height="300">
+<img src="https://github.com/user-attachments/assets/dde3c72a-8de5-4b07-ad37-429f0487386a" height="300">
+
 - Multiplexed LED bar display for chest armor effects
 - Gradual power-up sequence to detect brownout correctly
 - Battery voltage monitoring with low-voltage deep sleep and green LED alert
