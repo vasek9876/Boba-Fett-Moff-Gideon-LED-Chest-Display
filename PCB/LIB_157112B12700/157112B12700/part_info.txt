@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=157112B12700
+PartCategory=Display
+PackageCategory=Other
+PinCount=10
+Version=1.3
+Released=2025-01-27 05:40:24
+Downloaded=2025-07-22 20:53:48
+3D=Y
