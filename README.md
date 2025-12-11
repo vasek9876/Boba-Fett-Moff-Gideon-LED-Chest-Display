@@ -48,3 +48,7 @@ Function implemented to emulate the same functions as in this image - The curren
 - Multiplexing is handled in firmware
 - The rapid switching of LEDs may generate audible noise from the power supply or nearby components; this is normal and does not indicate a fault.
 
+## Goal and further developement
+
+- The goal of this open hw is to make this relatively simple custom device based on AtMega accessible for anyone.
+- The current development is stopped, but there are known issues, which will be resolved in a few months.
