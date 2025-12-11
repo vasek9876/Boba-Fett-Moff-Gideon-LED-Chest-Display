@@ -2,7 +2,7 @@
 
 Boba Fett / Moff Gideon LED Chest Display for cosplay or props.
 
-This product is inspired by these [commercially accessible solutions](https://www.etsy.com/au/listing/1456479470/high-quality-boba-fettmoff-gideon-led) - but made for a smaller chestplate
+This product is inspired by these [commercially accessible solution](https://www.etsy.com/au/listing/1456479470/high-quality-boba-fettmoff-gideon-led) - but made for a smaller chestplate
 Function implemented to emulate the same functions as in this image - The current version of the code does not implement the last display function.
 
 <img height="700" alt="image" src="https://github.com/user-attachments/assets/aa821dde-1e37-44e1-8f7e-67c9ccb8533e" />
