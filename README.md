@@ -41,6 +41,9 @@ Function implemented to emulate the same functions as in this image - The curren
 - Firmware source code is included in [SW](https://github.com/vasek9876/Boba-Fett-Moff-Gideon-LED-Chest-Display/tree/all/sw)
 
 ## Notes
+
+<img width="196" height="168" alt="Untitled Diagram (2)" src="https://github.com/user-attachments/assets/aded8391-8091-40c6-929c-c8df182a54ae" />
+
 - Ensure proper power supply to avoid brownout during startup (>5 V)
 - Multiplexing is handled in firmware
 - The rapid switching of LEDs may generate audible noise from the power supply or nearby components; this is normal and does not indicate a fault.
